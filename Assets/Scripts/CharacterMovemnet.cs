@@ -61,5 +61,7 @@ public class CharacterMovemnet : MonoBehaviour
 
         //move camera if player has moved
         cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
+        //cam.transform.position += cam.transform.position - newPos;
+
     }
 }
