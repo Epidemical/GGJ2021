@@ -48,7 +48,10 @@ public class PlayerInteract : MonoBehaviour
                     }
                 }
 
+
+                //trigger item specific code here
                 Debug.Log(closestObj.name);
+                closestObj.GetComponent<InteractableObject>().OnInteract();
             }
         }
         else
