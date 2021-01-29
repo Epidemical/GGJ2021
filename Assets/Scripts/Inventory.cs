@@ -13,7 +13,7 @@ public class Inventory : MonoBehaviour
     private ColorBlock unselectedColour;
     private ColorBlock selectedColour;
 
-    private GameObject[] items;
+    private GameObject[] items; //TODO - change to scriptable object when needed
 
     // Start is called before the first frame update
     void Start()
