@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour
     {
         foreach(Button slot in ui.GetComponentsInChildren<Button>())
         {
-            Debug.Log(slot.name);
+         //   slot.
         }
     }
 }
