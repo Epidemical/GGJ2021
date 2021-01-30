@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Crystal
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 6647716899697654479, guid: edd5ac3bc32a1fd4a9799c4e7bcd0cef, type: 3}
