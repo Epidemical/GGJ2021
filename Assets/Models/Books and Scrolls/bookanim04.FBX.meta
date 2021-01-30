@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 0447591e092b9d74c91b5220eb56871a
+timeCreated: 1476347578
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: book07
+    100002: book07_page
+    100004: book07_page01
+    100006: book07_page02
+    100008: book07_page_bone
+    100010: book07_page_bone01
+    100012: book07_page_bone02
+    100014: book07_page_bone03
+    100016: book07_page_bone04
+    100018: book07_page_bone05
+    100020: book07_page_bone0501
+    100022: book07_page_bone0502
+    100024: book07_page_bone0503
+    100026: book07_page_bone0504
+    100028: book07_page_bone10
+    100030: book07_page_bone14
+    100032: book07_page_bone1401
+    100034: book07_page_bone1402
+    100036: book07_page_bone1403
+    100038: //RootNode
+    400000: book07
+    400002: book07_page
+    400004: book07_page01
+    400006: book07_page02
+    400008: book07_page_bone
+    400010: book07_page_bone01
+    400012: book07_page_bone02
+    400014: book07_page_bone03
+    400016: book07_page_bone04
+    400018: book07_page_bone05
+    400020: book07_page_bone0501
+    400022: book07_page_bone0502
+    400024: book07_page_bone0503
+    400026: book07_page_bone0504
+    400028: book07_page_bone10
+    400030: book07_page_bone14
+    400032: book07_page_bone1401
+    400034: book07_page_bone1402
+    400036: book07_page_bone1403
+    400038: //RootNode
+    2300000: book07
+    3300000: book07
+    4300000: book07_page
+    4300002: book07_page01
+    4300004: book07_page02
+    4300006: book07
+    7400000: book_mpf_idle
+    7400002: book_mpf
+    9500000: //RootNode
+    13700000: book07_page
+    13700002: book07_page01
+    13700004: book07_page02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: book_mpf_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book07
+        weight: 1
+      - path: book07_page
+        weight: 1
+      - path: book07_page01
+        weight: 1
+      - path: book07_page02
+        weight: 1
+      - path: book07_page_bone
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02/book07_page_bone03
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02/book07_page_bone03/book07_page_bone04
+        weight: 1
+      - path: book07_page_bone05
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502/book07_page_bone0503
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502/book07_page_bone0503/book07_page_bone0504
+        weight: 1
+      - path: book07_page_bone10
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401/book07_page_bone1402
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401/book07_page_bone1402/book07_page_bone1403
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_mpf
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book07
+        weight: 1
+      - path: book07_page
+        weight: 1
+      - path: book07_page01
+        weight: 1
+      - path: book07_page02
+        weight: 1
+      - path: book07_page_bone
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02/book07_page_bone03
+        weight: 1
+      - path: book07_page_bone/book07_page_bone01/book07_page_bone02/book07_page_bone03/book07_page_bone04
+        weight: 1
+      - path: book07_page_bone05
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502/book07_page_bone0503
+        weight: 1
+      - path: book07_page_bone05/book07_page_bone0501/book07_page_bone0502/book07_page_bone0503/book07_page_bone0504
+        weight: 1
+      - path: book07_page_bone10
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401/book07_page_bone1402
+        weight: 1
+      - path: book07_page_bone10/book07_page_bone14/book07_page_bone1401/book07_page_bone1402/book07_page_bone1403
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
