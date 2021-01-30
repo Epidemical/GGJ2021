@@ -60,8 +60,15 @@ public class CharacterMovemnet : MonoBehaviour
         newPos = this.transform.position;
 
         //move camera if player has moved
-        cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
+        //cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
         //cam.transform.position += cam.transform.position - newPos;
+        cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + 3.5f, this.transform.position.z);
+    }
 
+    public void MoveInstantlyUp(float distance)
+    {
+        controller.enabled = false;
+        transform.position = new Vector3(transform.position.x, this.transform.position.y + distance, transform.position.z);
+        controller.enabled = true;
     }
 }
