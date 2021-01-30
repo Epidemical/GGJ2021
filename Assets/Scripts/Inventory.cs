@@ -177,6 +177,11 @@ public class Inventory : MonoBehaviour
         }
     }
 
+    private void UseItem()
+    {
+
+    }
+
     public int GetSelectedSlot()
     {
         return selectedSlot;

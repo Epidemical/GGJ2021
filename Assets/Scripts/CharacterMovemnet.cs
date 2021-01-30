@@ -20,12 +20,18 @@ public class CharacterMovemnet : MonoBehaviour
     Vector3 oldPos;
     Vector3 newPos;
 
+    bool facingRight;
+    bool isWalking;
+
     private void Start()
     {
         cam = Camera.main;
 
         //set start camera position
         cam.transform.position = new Vector3(this.transform.position.x + 7f, this.transform.position.y + 3.5f, 0f);
+
+        isWalking = false;
+        facingRight = true;
     }
 
 
@@ -63,6 +69,26 @@ public class CharacterMovemnet : MonoBehaviour
         //cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
         //cam.transform.position += cam.transform.position - newPos;
         cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + 3.5f, this.transform.position.z);
+
+
+
+        //check if walking and direction
+        if (direction.Equals(new Vector3(0, 0, 0)))
+        {
+            isWalking = false;
+        }
+        else
+        {
+            isWalking = true;
+            if(direction.z > 0)
+            {
+                facingRight = true;
+            }
+            else if(direction.z < 0)
+            {
+                facingRight = false;
+            }
+        }
     }
 
     public void MoveInstantlyUp(float distance)
