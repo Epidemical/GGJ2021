@@ -13,7 +13,6 @@ public class PickupObject : MonoBehaviour, InteractableObject
         if (success)
         {
             FindObjectOfType<AudioManager>().Play(item.objectSound);
-            Debug.Log("insert sound here");
             Destroy(this.gameObject);
 
         }
