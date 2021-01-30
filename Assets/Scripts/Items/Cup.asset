@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Cup
   sprite: {fileID: 0}
   prefab: {fileID: 2248530763119879061, guid: e02f1c2436f523144a4e5d45236985d7, type: 3}
+  objectSound: Tankard

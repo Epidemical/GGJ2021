@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Mushroom
   sprite: {fileID: 0}
   prefab: {fileID: 2638456474989399355, guid: 40d937a3564f44e419db1bad59919f74, type: 3}
+  objectSound: Mushroom

@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Herring
   sprite: {fileID: 0}
   prefab: {fileID: 2217658417304945648, guid: e08023f232d41524185761045f7478b1, type: 3}
+  objectSound: Fish

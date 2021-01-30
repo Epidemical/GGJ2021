@@ -10,4 +10,5 @@ public class Item : ScriptableObject
     public string name;
     public Sprite sprite;
     public GameObject prefab;
+    public string objectSound;
 }

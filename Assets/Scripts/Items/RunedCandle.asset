@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Runed Candle
   sprite: {fileID: 0}
   prefab: {fileID: 7194481172513960937, guid: 737b5bb21b5ab4c43934d753816efeb9, type: 3}
+  objectSound: Fire whoosh

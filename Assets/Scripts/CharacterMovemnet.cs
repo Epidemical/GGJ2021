@@ -5,6 +5,9 @@ using UnityEngine;
 //controls the player
 public class CharacterMovemnet : MonoBehaviour
 {
+    // animation
+    public Animator anim;
+
 
     public CharacterController controller;
     Camera cam;
@@ -76,17 +79,22 @@ public class CharacterMovemnet : MonoBehaviour
         if (direction.Equals(new Vector3(0, 0, 0)))
         {
             isWalking = false;
+            anim.SetBool("isWalking", false);
         }
         else
         {
             isWalking = true;
+            anim.SetBool("isWalking", true);
+
             if(direction.z > 0)
             {
                 facingRight = true;
+                anim.SetBool("facingRight", true);
             }
             else if(direction.z < 0)
             {
                 facingRight = false;
+                anim.SetBool("facingRight", false);
             }
         }
     }
