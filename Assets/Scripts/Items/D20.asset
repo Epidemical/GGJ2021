@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
   m_Name: D20
   m_EditorClassIdentifier: 
-  name: Die
-  sprite: {fileID: 21300000, guid: fb49ba88783f05647a4e1086e4f06503, type: 3}
-  prefab: {fileID: 4188314848038031127, guid: 9b2faacd2d38b314b81e3d907d872c17, type: 3}
+  name: D20
+  sprite: {fileID: 21300000, guid: a0c4c0ff9a730774ebd30059d2e45c28, type: 3}
+  prefab: {fileID: 3740918607211520549, guid: 81407cc540ca0c246892c5cf74d19a59, type: 3}

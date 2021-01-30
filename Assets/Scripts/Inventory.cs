@@ -166,7 +166,7 @@ public class Inventory : MonoBehaviour
     private void DropItem()
     {
         //if a slot is selected
-        if(selectedSlot != -1)
+        if(selectedSlot != -1 && items[selectedSlot] != null)
         {
             spawnPoints.GetComponent<SpawnPickups>().SpawnItem(items[selectedSlot]);
 

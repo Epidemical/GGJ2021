@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
   m_Name: Matches
   m_EditorClassIdentifier: 
-  name: 
+  name: Matches
   sprite: {fileID: 0}
   prefab: {fileID: 0}
