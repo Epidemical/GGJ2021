@@ -2,10 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupObject : InteractableObject
+public class PickupObject : MonoBehaviour, InteractableObject
 {
-    public void OnInteract()
+    public Item item;
+
+    public void OnInteract(GameObject player)
     {
-        //do something
+        bool success = player.GetComponent<Inventory>().PickUpItem(item);
+
+        if (success)
+        {
+            Destroy(this.gameObject);
+        }
+        else
+        {
+            //play sound?
+
+        }
     }
 }

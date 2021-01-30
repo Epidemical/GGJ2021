@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//checks around the player to find interactable objects and triggers them when an interact button is pressed ('e')
 public class PlayerInteract : MonoBehaviour
 {
     public Transform centrePoint;
@@ -51,7 +52,7 @@ public class PlayerInteract : MonoBehaviour
 
                 //trigger item specific code here
                 Debug.Log(closestObj.name);
-                closestObj.GetComponent<InteractableObject>().OnInteract();
+                closestObj.GetComponent<InteractableObject>().OnInteract(this.gameObject);
             }
         }
         else

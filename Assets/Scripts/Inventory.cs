@@ -9,11 +9,12 @@ public class Inventory : MonoBehaviour
     public GameObject ui;
     public int numSlots = 5;
     public int selectedSlot = -1;
+    private int emptySlots;
 
     private ColorBlock unselectedColour;
     private ColorBlock selectedColour;
 
-    private GameObject[] items; //TODO - change to scriptable object when needed
+    private Item[] items;
 
     // Start is called before the first frame update
     void Start()
@@ -22,14 +23,18 @@ public class Inventory : MonoBehaviour
         GetColours(ui);
         selectedSlot = -1;
         HighlightSelectedSlot();
+        
 
         //setup items
-        items = new GameObject[numSlots];
+        items = new Item[numSlots];
+        emptySlots = numSlots;
 
         for(int i = 0; i < numSlots; i++)
         {
             items[i] = null;
         }
+
+        UpdateImages();
     }
 
     // Update is called once per frame
@@ -61,8 +66,6 @@ public class Inventory : MonoBehaviour
 
             HighlightSelectedSlot();
         }
-        
-
     }
 
     void HighlightSelectedSlot()
@@ -91,5 +94,55 @@ public class Inventory : MonoBehaviour
 
         unselectedColour.disabledColor = slot.colors.normalColor;
         selectedColour.disabledColor = slot.colors.highlightedColor;
+    }
+
+    public bool PickUpItem(Item item)
+    {
+        //if empty slot is available
+        if(emptySlots != 0)
+        {
+            for(int i = 0; i < numSlots; i++)
+            {
+                Item slot = items[i];
+
+
+                if(slot == null)
+                {
+                    //do item add code
+                    Debug.Log("null found");
+
+                    items[i] = item;
+                    UpdateImages();
+
+
+                    break;
+                }
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
+    void UpdateImages() //SELECTING THE WRONG IMG COMPONENET
+    {
+        Button[] slots = ui.GetComponentsInChildren<Button>();
+
+        for (int i = 0; i < numSlots; i++)
+        {
+            Image imgComp = slots[i].gameObject.transform.GetChild(0).GetComponent<Image>();
+
+
+            if (items[i] != null)
+            {
+                imgComp.sprite = items[i].sprite;
+                imgComp.color = new Color(255, 255, 255, 255);
+            }
+            else
+            {
+                imgComp.color = new Color(255, 255, 255, 0);
+            }
+        }
     }
 }
