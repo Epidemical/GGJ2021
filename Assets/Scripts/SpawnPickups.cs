@@ -24,7 +24,10 @@ public class SpawnPickups : MonoBehaviour
                     newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y, newObject.transform.position.z);
                 }
                 else
-                    Debug.Log("name of spawn and item dont match");
+                {
+                    //Debug.Log("name of spawn and item dont match");
+
+                }
             }
         }
     }
