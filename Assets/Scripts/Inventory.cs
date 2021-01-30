@@ -10,7 +10,7 @@ public class Inventory : MonoBehaviour
     public GameObject spawnPoints;
     public GameObject ui;
     public int numSlots = 5;
-    public int selectedSlot = -1;
+    private int selectedSlot = -1;
     private int emptySlots;
 
     private ColorBlock unselectedColour;
@@ -175,5 +175,18 @@ public class Inventory : MonoBehaviour
             UpdateImages();
             HighlightSelectedSlot();
         }
+    }
+
+    public int GetSelectedSlot()
+    {
+        return selectedSlot;
+    }
+
+    public Item GetSelectedItem()
+    {
+        if (selectedSlot != -1)
+            return items[selectedSlot];
+        else
+            return null;
     }
 }

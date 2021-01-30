@@ -20,4 +20,9 @@ public class PickupObject : MonoBehaviour, InteractableObject
 
         }
     }
+
+    public void OnInteract(GameObject player, Item item)
+    {
+        OnInteract(player);
+    }
 }
