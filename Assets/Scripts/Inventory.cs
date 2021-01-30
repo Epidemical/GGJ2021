@@ -129,8 +129,6 @@ public class Inventory : MonoBehaviour
 
                 if(slot == null)
                 {
-                    Debug.Log("null found");
-
                     items[i] = item;
                     UpdateImages();
                     HighlightSelectedSlot();

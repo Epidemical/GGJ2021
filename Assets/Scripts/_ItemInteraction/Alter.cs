@@ -7,67 +7,75 @@ public class Alter : MonoBehaviour, InteractableObject
     public Transform spawnPoint;
     private Item item;
     private GameObject itemObject;
-    private bool itemOnAlter = false;
+
+    public Item itemTest;
 
     private void Start()
     {
         item = null;
     }
 
-    public void OnInteract(GameObject player)
+    public void OnInteract(GameObject player) //empty hand
     {
-        //if(itemOnAlter == true)
-        //{
-        //    Debug.Log("on int none if");
-        //    bool success = player.GetComponent<Inventory>().PickUpItem(item);
+        if(item == null) //no item on alter
+        {
+            Debug.Log("Please click with an item to add to the alter");
 
-        //    if (success)
-        //    {
-        //        Destroy(itemObject);
-        //        itemOnAlter = false;
-        //    }
-        //}
-        //else
-        //{
-        //    Debug.Log("on int none else");
-        //    Debug.Log("Please select an object to place here");
+            bool test = (item == null);
+            Debug.Log("Item null? " + test.ToString());
+        }
+        else //item on alter
+        {
+            bool success = player.GetComponent<Inventory>().PickUpItem(item);
 
-        //}
+            if (success)
+            {
+                item = null;
+                Destroy(itemObject);
+            }
+
+            bool test = (item == null);
+            Debug.Log("Item null? " + test.ToString());
+        }
     }
 
-    public void OnInteract(GameObject player, Item i)
+    public void OnInteract(GameObject player, Item i) //item in hand
     {
-        //if (itemOnAlter == false)
-        //{
-        //    Debug.Log("on int with if");
+        if (item == null) //no item on alter
+        {
+            player.GetComponent<Inventory>().UseItem(); //removes selected item from inventory
 
-        //    item = i;
-        //    itemObject = Instantiate(item.prefab, spawnPoint);
-        //    itemObject.GetComponent<PickupObject>().enabled = false;
-
-        //    player.GetComponent<Inventory>().UseItem();
-
-        //    itemOnAlter = true;
-        //}
-        //else
-        //{
-        //    Debug.Log("on int with else");
-
-        //    bool success = player.GetComponent<Inventory>().PickUpItem(item);
-
-        //    if (success)
-        //    {
-        //        //Destroy(itemObject);
-
-        //        item = i;
-        //        itemObject = Instantiate(item.prefab, spawnPoint);
-        //        itemObject.GetComponent<PickupObject>().enabled = false;
+            item = i;
+            itemObject = Instantiate(item.prefab, spawnPoint);
+            Destroy(itemObject.GetComponent<PickupObject>());
+            itemObject.layer = 0;
 
 
-        //        player.GetComponent<Inventory>().UseItem();
+            bool test = (item == null);
+            Debug.Log("Item null? " + test.ToString());
+        }
+        else //item on alter
+        {
+            Destroy(itemObject);
 
-        //        itemOnAlter = true;
-        //    }
-        //}
+            player.GetComponent<Inventory>().UseItem(); //removes selected item from inventory
+            player.GetComponent<Inventory>().PickUpItem(item); //picks up current alter item
+
+            item = i;
+            itemObject = Instantiate(item.prefab, spawnPoint);
+            Destroy(itemObject.GetComponent<PickupObject>());
+            itemObject.layer = 0;
+
+            bool test = (item == null);
+            Debug.Log("Item null? " + test.ToString());
+        }
+    }
+
+    public Item GetCurrentItem()
+    {
+        if (item != null)
+            return item;
+        else
+            return null;
     }
 }

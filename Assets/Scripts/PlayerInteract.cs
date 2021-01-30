@@ -51,7 +51,7 @@ public class PlayerInteract : MonoBehaviour
 
 
                 //trigger item specific code here
-                Debug.Log(closestObj.name);
+                Debug.Log(closestObj.name + " interacted with");
 
                 if(this.GetComponent<Inventory>().GetSelectedItem() != null)
                     closestObj.GetComponent<InteractableObject>().OnInteract(this.gameObject, this.GetComponent<Inventory>().GetSelectedItem());
