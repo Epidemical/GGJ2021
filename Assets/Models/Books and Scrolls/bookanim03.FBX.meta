@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 040c7e29ca30aa547ad45f850b54365e
+timeCreated: 1476345427
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: book06
+    100002: book06_page
+    100004: book06_page_bone
+    100006: book06_page_bone01
+    100008: book06_page_bone02
+    100010: book06_page_bone03
+    100012: book06_page_bone04
+    100014: book06_page_bone05
+    100016: //RootNode
+    400000: book06
+    400002: book06_page
+    400004: book06_page_bone
+    400006: book06_page_bone01
+    400008: book06_page_bone02
+    400010: book06_page_bone03
+    400012: book06_page_bone04
+    400014: book06_page_bone05
+    400016: //RootNode
+    2300000: book06
+    3300000: book06
+    4300000: book06_page
+    4300002: book06
+    7400000: book_spf_idle
+    7400002: book_spf
+    9500000: //RootNode
+    13700000: book06_page
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: book_spf_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book06
+        weight: 1
+      - path: book06_page
+        weight: 1
+      - path: book06_page_bone
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03/book06_page_bone04
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03/book06_page_bone04/book06_page_bone05
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_spf
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book06
+        weight: 1
+      - path: book06_page
+        weight: 1
+      - path: book06_page_bone
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03/book06_page_bone04
+        weight: 1
+      - path: book06_page_bone/book06_page_bone01/book06_page_bone02/book06_page_bone03/book06_page_bone04/book06_page_bone05
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: 19d2574b728aa514987b934ede3205fb
+timeCreated: 1474270084
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: book04_cover
+    100002: book04_cover_bone
+    100004: book04_cover_bone01
+    100006: book04_cover_bone02
+    100008: book04_cover_bone03
+    100010: book04_stackleft
+    100012: book04_stackleft_bone
+    100014: book04_stackleft_bone01
+    100016: book04_stackleft_bone02
+    100018: book04_stackleft_bone03
+    100020: book04_stackleft_bone04
+    100022: book04_stackright
+    100024: book04_stackright_bone
+    100026: book04_stackright_bone01
+    100028: book04_stackright_bone02
+    100030: book04_stackright_bone03
+    100032: book04_stackright_bone04
+    100034: //RootNode
+    400000: book04_cover
+    400002: book04_cover_bone
+    400004: book04_cover_bone01
+    400006: book04_cover_bone02
+    400008: book04_cover_bone03
+    400010: book04_stackleft
+    400012: book04_stackleft_bone
+    400014: book04_stackleft_bone01
+    400016: book04_stackleft_bone02
+    400018: book04_stackleft_bone03
+    400020: book04_stackleft_bone04
+    400022: book04_stackright
+    400024: book04_stackright_bone
+    400026: book04_stackright_bone01
+    400028: book04_stackright_bone02
+    400030: book04_stackright_bone03
+    400032: book04_stackright_bone04
+    400034: //RootNode
+    4300000: book04_stackright
+    4300002: book04_stackleft
+    4300004: book04_cover
+    7400000: book_open
+    7400002: book_close
+    7400004: book_idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: book04_cover
+    13700002: book04_stackleft
+    13700004: book04_stackright
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: book_open
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book04_cover
+        weight: 1
+      - path: book04_cover_bone
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02/book04_cover_bone03
+        weight: 1
+      - path: book04_stackleft
+        weight: 1
+      - path: book04_stackleft_bone
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03/book04_stackleft_bone04
+        weight: 1
+      - path: book04_stackright
+        weight: 1
+      - path: book04_stackright_bone
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03/book04_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_close
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book04_cover
+        weight: 1
+      - path: book04_cover_bone
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02/book04_cover_bone03
+        weight: 1
+      - path: book04_stackleft
+        weight: 1
+      - path: book04_stackleft_bone
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03/book04_stackleft_bone04
+        weight: 1
+      - path: book04_stackright
+        weight: 1
+      - path: book04_stackright_bone
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03/book04_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book04_cover
+        weight: 1
+      - path: book04_cover_bone
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02
+        weight: 1
+      - path: book04_cover_bone/book04_cover_bone01/book04_cover_bone02/book04_cover_bone03
+        weight: 1
+      - path: book04_stackleft
+        weight: 1
+      - path: book04_stackleft_bone
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03
+        weight: 1
+      - path: book04_stackleft_bone/book04_stackleft_bone01/book04_stackleft_bone02/book04_stackleft_bone03/book04_stackleft_bone04
+        weight: 1
+      - path: book04_stackright
+        weight: 1
+      - path: book04_stackright_bone
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03
+        weight: 1
+      - path: book04_stackright_bone/book04_stackright_bone01/book04_stackright_bone02/book04_stackright_bone03/book04_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

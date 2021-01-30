@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 87321781f87050146bf749b59a1bcdde
+timeCreated: 1474270086
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: book05_cover
+    100002: book05_cover_bone
+    100004: book05_cover_bone01
+    100006: book05_cover_bone02
+    100008: book05_cover_bone03
+    100010: book05_page
+    100012: book05_page_bone
+    100014: book05_page_bone01
+    100016: book05_page_bone02
+    100018: book05_page_bone03
+    100020: book05_page_bone04
+    100022: book05_stackleft
+    100024: book05_stackleft_bone
+    100026: book05_stackleft_bone01
+    100028: book05_stackleft_bone02
+    100030: book05_stackleft_bone03
+    100032: book05_stackleft_bone04
+    100034: book05_stackright
+    100036: book05_stackright_bone
+    100038: book05_stackright_bone01
+    100040: book05_stackright_bone02
+    100042: book05_stackright_bone03
+    100044: book05_stackright_bone04
+    100046: //RootNode
+    100048: book05_page01
+    100050: book05_page02
+    100052: book05_page_bone05
+    100054: book05_page_bone06
+    100056: book05_page_bone07
+    100058: book05_page_bone08
+    100060: book05_page_bone09
+    100062: book05_page_bone10
+    100064: book05_page_bone11
+    100066: book05_page_bone12
+    100068: book05_page_bone13
+    100070: book05_page_bone14
+    400000: book05_cover
+    400002: book05_cover_bone
+    400004: book05_cover_bone01
+    400006: book05_cover_bone02
+    400008: book05_cover_bone03
+    400010: book05_page
+    400012: book05_page_bone
+    400014: book05_page_bone01
+    400016: book05_page_bone02
+    400018: book05_page_bone03
+    400020: book05_page_bone04
+    400022: book05_stackleft
+    400024: book05_stackleft_bone
+    400026: book05_stackleft_bone01
+    400028: book05_stackleft_bone02
+    400030: book05_stackleft_bone03
+    400032: book05_stackleft_bone04
+    400034: book05_stackright
+    400036: book05_stackright_bone
+    400038: book05_stackright_bone01
+    400040: book05_stackright_bone02
+    400042: book05_stackright_bone03
+    400044: book05_stackright_bone04
+    400046: //RootNode
+    400048: book05_page01
+    400050: book05_page02
+    400052: book05_page_bone05
+    400054: book05_page_bone06
+    400056: book05_page_bone07
+    400058: book05_page_bone08
+    400060: book05_page_bone09
+    400062: book05_page_bone10
+    400064: book05_page_bone11
+    400066: book05_page_bone12
+    400068: book05_page_bone13
+    400070: book05_page_bone14
+    4300000: book05_page
+    4300002: book05_stackright
+    4300004: book05_stackleft
+    4300006: book05_cover
+    4300008: book05_page01
+    4300010: book05_page02
+    7400000: book_mpf_close
+    7400002: book_mpf_open
+    7400004: book_mpf_idle
+    9500000: //RootNode
+    13700000: book05_cover
+    13700002: book05_page
+    13700004: book05_stackleft
+    13700006: book05_stackright
+    13700008: book05_page01
+    13700010: book05_page02
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: book_mpf_close
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book05_cover
+        weight: 1
+      - path: book05_cover_bone
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02/book05_cover_bone03
+        weight: 1
+      - path: book05_page
+        weight: 1
+      - path: book05_page01
+        weight: 1
+      - path: book05_page02
+        weight: 1
+      - path: book05_page_bone
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03/book05_page_bone04
+        weight: 1
+      - path: book05_page_bone05
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06/book05_page_bone08
+        weight: 1
+      - path: book05_page_bone10
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11/book05_page_bone13
+        weight: 1
+      - path: book05_stackleft
+        weight: 1
+      - path: book05_stackleft_bone
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03/book05_stackleft_bone04
+        weight: 1
+      - path: book05_stackright
+        weight: 1
+      - path: book05_stackright_bone
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03/book05_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_mpf_open
+      takeName: Take 001
+      firstFrame: 5
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book05_cover
+        weight: 1
+      - path: book05_cover_bone
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02/book05_cover_bone03
+        weight: 1
+      - path: book05_page
+        weight: 1
+      - path: book05_page01
+        weight: 1
+      - path: book05_page02
+        weight: 1
+      - path: book05_page_bone
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03/book05_page_bone04
+        weight: 1
+      - path: book05_page_bone05
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06/book05_page_bone08
+        weight: 1
+      - path: book05_page_bone10
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11/book05_page_bone13
+        weight: 1
+      - path: book05_stackleft
+        weight: 1
+      - path: book05_stackleft_bone
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03/book05_stackleft_bone04
+        weight: 1
+      - path: book05_stackright
+        weight: 1
+      - path: book05_stackright_bone
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03/book05_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: book_mpf_idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book05_cover
+        weight: 1
+      - path: book05_cover_bone
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02
+        weight: 1
+      - path: book05_cover_bone/book05_cover_bone01/book05_cover_bone02/book05_cover_bone03
+        weight: 1
+      - path: book05_page
+        weight: 1
+      - path: book05_page01
+        weight: 1
+      - path: book05_page02
+        weight: 1
+      - path: book05_page_bone
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03
+        weight: 1
+      - path: book05_page_bone/book05_page_bone01/book05_page_bone02/book05_page_bone03/book05_page_bone04
+        weight: 1
+      - path: book05_page_bone05
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06
+        weight: 1
+      - path: book05_page_bone05/book05_page_bone09/book05_page_bone07/book05_page_bone06/book05_page_bone08
+        weight: 1
+      - path: book05_page_bone10
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11
+        weight: 1
+      - path: book05_page_bone10/book05_page_bone14/book05_page_bone12/book05_page_bone11/book05_page_bone13
+        weight: 1
+      - path: book05_stackleft
+        weight: 1
+      - path: book05_stackleft_bone
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03
+        weight: 1
+      - path: book05_stackleft_bone/book05_stackleft_bone01/book05_stackleft_bone02/book05_stackleft_bone03/book05_stackleft_bone04
+        weight: 1
+      - path: book05_stackright
+        weight: 1
+      - path: book05_stackright_bone
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03
+        weight: 1
+      - path: book05_stackright_bone/book05_stackright_bone01/book05_stackright_bone02/book05_stackright_bone03/book05_stackright_bone04
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
