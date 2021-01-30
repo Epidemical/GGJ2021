@@ -28,4 +28,19 @@ public class SpawnPickups : MonoBehaviour
             }
         }
     }
+
+    public void SpawnItem(Item item)
+    {
+        Transform spawn = this.transform.Find(item.name);
+
+        if(spawn != null)
+        {
+            GameObject newObject = Instantiate(item.prefab, spawn);
+            newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y + newObject.transform.localScale.y / 2, newObject.transform.position.z);
+        }
+        else
+        {
+            Debug.LogError("The spawn point for " + item.name + " was not found");
+        }
+    }
 }

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 //controls the inventory, not including the generation of the UI. IF CHANGING THE NUMBER OF SLOTS CHANGE THE INVENTORY PREFAB TOO
 public class Inventory : MonoBehaviour
 {
+    public GameObject spawnPoints;
     public GameObject ui;
     public int numSlots = 5;
     public int selectedSlot = -1;
@@ -16,6 +17,8 @@ public class Inventory : MonoBehaviour
     private ColorBlock selectedColour;
 
     private Item[] items;
+
+    private KeyCode dropItemKey = KeyCode.Q;
 
     // Start is called before the first frame update
     void Start()
@@ -41,7 +44,7 @@ public class Inventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        //check 1-5 keys for item selection
         if(Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Alpha3) ||
             Input.GetKeyDown(KeyCode.Alpha4) || Input.GetKeyDown(KeyCode.Alpha5))
         {
@@ -66,6 +69,12 @@ public class Inventory : MonoBehaviour
                 selectedSlot = key;
 
             HighlightSelectedSlot();
+        }
+
+        //check drop key
+        if (Input.GetKeyDown(dropItemKey))
+        {
+            DropItem();
         }
     }
 
@@ -151,6 +160,20 @@ public class Inventory : MonoBehaviour
             {
                 imgComp.color = new Color(255, 255, 255, 0);
             }
+        }
+    }
+
+    private void DropItem()
+    {
+        //if a slot is selected
+        if(selectedSlot != -1)
+        {
+            spawnPoints.GetComponent<SpawnPickups>().SpawnItem(items[selectedSlot]);
+
+            items[selectedSlot] = null;
+
+            UpdateImages();
+            HighlightSelectedSlot();
         }
     }
 }
