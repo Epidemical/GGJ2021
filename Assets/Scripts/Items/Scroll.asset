@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Scroll
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 5300092899709269359, guid: e1d3c1a442399a24096a19c0ad0ad55a, type: 3}

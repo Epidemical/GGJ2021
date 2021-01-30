@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
   m_Name: Fish
   m_EditorClassIdentifier: 
-  name: Fish
+  name: Herring
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 2217658417304945648, guid: e08023f232d41524185761045f7478b1, type: 3}
