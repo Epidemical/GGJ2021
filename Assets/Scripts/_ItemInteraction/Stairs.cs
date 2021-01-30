@@ -12,9 +12,9 @@ public class Stairs : MonoBehaviour, InteractableObject
         float distance = Vector3.Distance(this.transform.position, endPoint.transform.position);
 
         if(up)
-            player.GetComponent<CharacterMovemnet>().MoveInstantlyUp(distance);
+            player.GetComponent<CharacterMovemnet>().MoveInstantlyUp(distance, endPoint.transform.position.z);
         else
-            player.GetComponent<CharacterMovemnet>().MoveInstantlyUp(-distance);
+            player.GetComponent<CharacterMovemnet>().MoveInstantlyUp(-distance, endPoint.transform.position.z);
 
 
     }

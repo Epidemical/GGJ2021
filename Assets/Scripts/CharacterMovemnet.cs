@@ -31,7 +31,7 @@ public class CharacterMovemnet : MonoBehaviour
         cam = Camera.main;
 
         //set start camera position
-        cam.transform.position = new Vector3(this.transform.position.x + 7f, this.transform.position.y + 3.5f, 0f);
+        cam.transform.position = new Vector3(this.transform.position.x - 12f, this.transform.position.y + 4f, 0f);
 
         isWalking = false;
         facingRight = true;
@@ -59,7 +59,7 @@ public class CharacterMovemnet : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical"); //W AND S
 
         //sets the direction of player movement
-        Vector3 direction = new Vector3(-vertical, 0f, horizontal).normalized;
+        Vector3 direction = new Vector3(vertical, 0f, -horizontal).normalized;
         controller.Move(direction * speed * Time.deltaTime);
 
         //sets the y movement of the player
@@ -71,7 +71,7 @@ public class CharacterMovemnet : MonoBehaviour
         //move camera if player has moved
         //cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
         //cam.transform.position += cam.transform.position - newPos;
-        cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + 3.5f, this.transform.position.z);
+        cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + 4f, this.transform.position.z);
 
 
 
@@ -88,21 +88,21 @@ public class CharacterMovemnet : MonoBehaviour
 
             if(direction.z > 0)
             {
-                facingRight = true;
-                anim.SetBool("facingRight", true);
+                facingRight = false;
+                anim.SetBool("facingRight", false);
             }
             else if(direction.z < 0)
             {
-                facingRight = false;
-                anim.SetBool("facingRight", false);
+                facingRight = true;
+                anim.SetBool("facingRight", true);
             }
         }
     }
 
-    public void MoveInstantlyUp(float distance)
+    public void MoveInstantlyUp(float distance, float newZ)
     {
         controller.enabled = false;
-        transform.position = new Vector3(transform.position.x, this.transform.position.y + distance, transform.position.z);
+        transform.position = new Vector3(transform.position.x, this.transform.position.y + distance, newZ);
         controller.enabled = true;
     }
 }
