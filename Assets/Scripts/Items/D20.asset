@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
-  m_Name: Die
+  m_Name: D20
   m_EditorClassIdentifier: 
   name: Die
   sprite: {fileID: 21300000, guid: fb49ba88783f05647a4e1086e4f06503, type: 3}
