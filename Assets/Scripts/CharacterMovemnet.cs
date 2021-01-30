@@ -23,6 +23,8 @@ public class CharacterMovemnet : MonoBehaviour
     bool facingRight;
     bool isWalking;
 
+    bool hasRun = false;
+
     private void Start()
     {
         cam = Camera.main;
@@ -80,7 +82,9 @@ public class CharacterMovemnet : MonoBehaviour
         else
         {
             isWalking = true;
-            if(direction.z > 0)
+
+
+            if (direction.z > 0)
             {
                 facingRight = true;
             }
@@ -88,6 +92,21 @@ public class CharacterMovemnet : MonoBehaviour
             {
                 facingRight = false;
             }
+
+        }
+
+        if(!isWalking && !hasRun)
+        {
+            FindObjectOfType<AudioManager>().Play("Walk Sound");
+            Debug.Log ("isWaling is" + isWalking);
+            hasRun = true;
+        }
+        else
+        {
+            hasRun = false;
+            //FindObjectOfType<AudioManager>().Stop("Walk Sound");
+            Debug.Log("isWaling is" + isWalking);
+
         }
     }
 

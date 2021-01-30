@@ -669,81 +669,91 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d23d29b17729fcf4a9f16680fd84ca05, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Fire whoosh
     clip: {fileID: 8300000, guid: b22468614c3288f489c68e461b165d4f, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Fish
     clip: {fileID: 8300000, guid: 9cecb877eda0f3a4796398b9c46c7c38, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Matchbox Shake
     clip: {fileID: 8300000, guid: 12d804d6d44b26849a92bf553b37c197, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Menu Hover
     clip: {fileID: 8300000, guid: 1b4e10b3bc46b50459ce09ef5a9705f6, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: 'Menu Select '
     clip: {fileID: 8300000, guid: b02ee5489c5f51e47b5e98f7094be59e, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Mushroom
     clip: {fileID: 8300000, guid: ec6dbf2bffe1af84d93d4a815188b565, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Orb 1
     clip: {fileID: 8300000, guid: 020f466bb8e70644c8e3df24e79b1d18, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Orb 2
     clip: {fileID: 8300000, guid: 937e00c13baaa264cbaccda803637a7f, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Paper scroll or book
     clip: {fileID: 8300000, guid: 5222205124915ee468824f05b179207c, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Portal
     clip: {fileID: 8300000, guid: b060770432282ea41928fd40c8a8096d, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Stair Walk
     clip: {fileID: 8300000, guid: 565719ae0a4d94b43a7a6f063986ac8c, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Tankard
     clip: {fileID: 8300000, guid: 9112f5e8fb1c6eb49956fad103ecbb31, type: 3}
     volume: 1
     pitch: 1
+    loop: 0
     source: {fileID: 0}
   - name: Walk Sound
     clip: {fileID: 8300000, guid: b70d7131093b23d41af0a43f01b890c6, type: 3}
     volume: 1
     pitch: 1
+    loop: 1
     source: {fileID: 0}
   - name: Wand
     clip: {fileID: 8300000, guid: d12f98974f0b4ac43a2c83e969008e7a, type: 3}
     volume: 1
     pitch: 1
-    source: {fileID: 0}
-  - name: Tankard
-    clip: {fileID: 8300000, guid: 9112f5e8fb1c6eb49956fad103ecbb31, type: 3}
-    volume: 1
-    pitch: 1
+    loop: 0
     source: {fileID: 0}
 --- !u!4 &902294729
 Transform:
