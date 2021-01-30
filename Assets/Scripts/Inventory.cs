@@ -125,11 +125,9 @@ public class Inventory : MonoBehaviour
                     items[i] = item;
                     UpdateImages();
                     HighlightSelectedSlot();
-                    break;
+                    return true;
                 }
             }
-
-            return true;
         }
 
         return false;
