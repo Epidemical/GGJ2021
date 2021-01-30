@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Hourglass
   sprite: {fileID: 0}
   prefab: {fileID: 5650570609964580383, guid: d63e5194a8b3f6d448900235f6c80a47, type: 3}
+  objectSound: Orb 2

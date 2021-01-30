@@ -15,3 +15,4 @@ MonoBehaviour:
   name: Wand
   sprite: {fileID: 0}
   prefab: {fileID: 3711674475956516614, guid: 8f029cf72b8608a4d918540d54fa57d2, type: 3}
+  objectSound: Wand
