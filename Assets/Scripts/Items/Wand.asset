@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
-  m_Name: New Item
+  m_Name: Wand
   m_EditorClassIdentifier: 
-  name: 
+  name: Wand
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 3711674475956516614, guid: 8f029cf72b8608a4d918540d54fa57d2, type: 3}

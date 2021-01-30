@@ -21,7 +21,7 @@ public class SpawnPickups : MonoBehaviour
                 if (spawnPoint.gameObject.name.Equals(allItems[i].name))
                 {
                     GameObject newObject = Instantiate(allItems[i].prefab, spawnPoint);
-                    newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y + newObject.transform.localScale.y / 2, newObject.transform.position.z);
+                    newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y, newObject.transform.position.z);
                 }
                 else
                     Debug.Log("name of spawn and item dont match");
@@ -36,7 +36,7 @@ public class SpawnPickups : MonoBehaviour
         if(spawn != null)
         {
             GameObject newObject = Instantiate(item.prefab, spawn);
-            newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y + newObject.transform.localScale.y / 2, newObject.transform.position.z);
+            //newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y + newObject.transform.localScale.y / 2, newObject.transform.position.z);
         }
         else
         {

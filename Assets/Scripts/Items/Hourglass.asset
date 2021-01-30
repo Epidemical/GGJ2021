@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2019a0cdb5fb430438420fc09efb363e, type: 3}
   m_Name: Hourglass
   m_EditorClassIdentifier: 
-  name: 
+  name: Hourglass
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 5650570609964580383, guid: d63e5194a8b3f6d448900235f6c80a47, type: 3}
