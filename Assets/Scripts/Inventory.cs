@@ -177,9 +177,16 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    private void UseItem()
+    public void UseItem()
     {
+        //if a slot is selected
+        if (selectedSlot != -1 && items[selectedSlot] != null)
+        {
+            items[selectedSlot] = null;
 
+            UpdateImages();
+            HighlightSelectedSlot();
+        }
     }
 
     public int GetSelectedSlot()
