@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -72,6 +73,11 @@ public class Inventory : MonoBehaviour
     {
         Button[] slots = ui.GetComponentsInChildren<Button>();
 
+        GameObject yeet = ui.transform.Find("ItemName").gameObject;
+        TextMeshProUGUI itemName = yeet.GetComponent<TextMeshProUGUI>();
+
+        itemName.text = "";
+
         for(int i = 0; i < numSlots; i++)
         {
             if(i != selectedSlot)
@@ -81,6 +87,12 @@ public class Inventory : MonoBehaviour
             else
             {
                 slots[i].colors = selectedColour;
+
+                //if an item is in that slot of the inventory
+                if (items[i] != null)
+                {
+                    itemName.text = items[i].name;
+                }
             }
         }
     }
@@ -108,13 +120,11 @@ public class Inventory : MonoBehaviour
 
                 if(slot == null)
                 {
-                    //do item add code
                     Debug.Log("null found");
 
                     items[i] = item;
                     UpdateImages();
-
-
+                    HighlightSelectedSlot();
                     break;
                 }
             }
@@ -125,7 +135,7 @@ public class Inventory : MonoBehaviour
         return false;
     }
 
-    void UpdateImages() //SELECTING THE WRONG IMG COMPONENET
+    void UpdateImages()
     {
         Button[] slots = ui.GetComponentsInChildren<Button>();
 
