@@ -8,8 +8,6 @@ public class Alter : MonoBehaviour, InteractableObject
     private Item item;
     private GameObject itemObject;
 
-    public Item itemTest;
-
     private void Start()
     {
         item = null;

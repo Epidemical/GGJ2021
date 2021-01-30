@@ -12,7 +12,8 @@ public class PickupObject : MonoBehaviour, InteractableObject
 
         if (success)
         {
-            FindObjectOfType<AudioManager>().Play(item.objectSound);
+            //TOM - TODO
+            //FindObjectOfType<AudioManager>().Play(item.objectSound);
             Destroy(this.gameObject);
 
         }
