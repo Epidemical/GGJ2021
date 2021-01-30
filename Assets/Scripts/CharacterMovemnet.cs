@@ -26,6 +26,10 @@ public class CharacterMovemnet : MonoBehaviour
     bool facingRight;
     bool isWalking;
 
+    bool hasRun;
+
+
+
     private void Start()
     {
         cam = Camera.main;
@@ -97,6 +101,20 @@ public class CharacterMovemnet : MonoBehaviour
                 anim.SetBool("facingRight", true);
             }
         }
+    
+        /*if (!isWalking && !hasRun)
+        {
+            FindObjectOfType<AudioManager>().Play("Walk Sound");
+            Debug.Log("isWaling is" + isWalking);
+            hasRun = true;
+        }
+        else
+        {
+           // hasRun = false;
+            //FindObjectOfType<AudioManager>().Stop("Walk Sound");
+            Debug.Log("isWaling is" + isWalking);
+
+        }*/
     }
 
     public void MoveInstantlyUp(float distance, float newZ)
@@ -104,5 +122,8 @@ public class CharacterMovemnet : MonoBehaviour
         controller.enabled = false;
         transform.position = new Vector3(transform.position.x, this.transform.position.y + distance, newZ);
         controller.enabled = true;
+        FindObjectOfType<AudioManager>().Play("Stair Walk");
+
+
     }
 }
