@@ -24,6 +24,8 @@ public class AlterEnd : MonoBehaviour, InteractableObject
         {
             PuzzleManager.instance.CheckFinalObjects();
             //play no good sound
+            FindObjectOfType<AudioManager>().Play("Portal Fail");
+
         }
 
     }
