@@ -6,6 +6,8 @@ public class PickupObject : MonoBehaviour, InteractableObject
 {
     public Item item;
 
+    public bool noDice;
+
     public void OnInteract(GameObject player)
     {
         bool success = player.GetComponent<Inventory>().PickUpItem(item);
@@ -15,12 +17,20 @@ public class PickupObject : MonoBehaviour, InteractableObject
             //TOM - TODO
             FindObjectOfType<AudioManager>().Play(item.objectSound);
             Destroy(this.gameObject);
+            noDice = false;
+
 
         }
         else
         {
             //play sound?
-            FindObjectOfType<AudioManager>().Play("No Dice");
+            if (!noDice)
+            {
+                FindObjectOfType<AudioManager>().Play("No Dice");
+                noDice = true;
+                noDice = false;
+
+            }
 
 
         }

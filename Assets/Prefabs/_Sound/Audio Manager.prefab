@@ -140,3 +140,9 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - name: Wand
+    clip: {fileID: 8300000, guid: d12f98974f0b4ac43a2c83e969008e7a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
