@@ -29,6 +29,8 @@ public class Alter : MonoBehaviour, InteractableObject
             if (success)
             {
                 //pickup sound
+                FindObjectOfType<AudioManager>().Play(item.objectSound);
+
                 item = null;
                 Destroy(itemObject);
             }
@@ -49,6 +51,8 @@ public class Alter : MonoBehaviour, InteractableObject
             Destroy(itemObject.GetComponent<PickupObject>());
             itemObject.layer = 0;
             //put down sound
+            FindObjectOfType<AudioManager>().Play(i.objectSound);
+
 
             bool test = (item == null);
             Debug.Log("Item null? " + test.ToString());
@@ -65,6 +69,8 @@ public class Alter : MonoBehaviour, InteractableObject
             Destroy(itemObject.GetComponent<PickupObject>());
             itemObject.layer = 0;
             //sound
+            FindObjectOfType<AudioManager>().Play(i.objectSound);
+
 
 
             bool test = (item == null);

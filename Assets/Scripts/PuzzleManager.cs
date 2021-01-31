@@ -89,6 +89,8 @@ public class PuzzleManager : MonoBehaviour
         if (win)
         {
             //do something cool and win worthy here
+            FindObjectOfType<AudioManager>().Play("Puzzle Win");
+
             //unlock something
             candleUnlock.SetActive(true);
             Debug.Log("win");
@@ -116,6 +118,10 @@ public class PuzzleManager : MonoBehaviour
 
             openBox.SetActive(true);
             Destroy(closedBox);
+
+            //Play Win Sound and Effect 
+            FindObjectOfType<AudioManager>().Play("Puzzle Win");
+
 
         }
     }

@@ -9,6 +9,8 @@ public class Symmetry : MonoBehaviour, InteractableObject
     public void OnInteract(GameObject player)
     {
         //bad sound
+        FindObjectOfType<AudioManager>().Play("Puzzle Fail");
+
     }
 
     public void OnInteract(GameObject player, Item item)
@@ -20,6 +22,8 @@ public class Symmetry : MonoBehaviour, InteractableObject
         else
         {
             //bad sound
+            FindObjectOfType<AudioManager>().Play("Puzzle Fail");
+
         }
     }
 }
