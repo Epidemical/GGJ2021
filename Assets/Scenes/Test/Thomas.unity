@@ -1287,7 +1287,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
       propertyPath: sounds.Array.size
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
       propertyPath: sounds.Array.data[15].clip
@@ -1302,11 +1302,31 @@ PrefabInstance:
       value: World Music
       objectReference: {fileID: 0}
     - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[16].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 993a1a8b807e66a4e86d3bd072cdea6f, type: 3}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[16].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[16].name
+      value: No Dice
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
       propertyPath: sounds.Array.data[15].pitch
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[16].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
       propertyPath: sounds.Array.data[15].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[16].volume
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4123698256279903143, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}

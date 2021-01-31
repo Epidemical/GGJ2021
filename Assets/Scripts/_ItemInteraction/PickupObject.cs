@@ -20,6 +20,8 @@ public class PickupObject : MonoBehaviour, InteractableObject
         else
         {
             //play sound?
+            FindObjectOfType<AudioManager>().Play("No Dice");
+
 
         }
     }
