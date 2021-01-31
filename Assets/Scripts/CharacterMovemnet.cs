@@ -28,14 +28,15 @@ public class CharacterMovemnet : MonoBehaviour
 
     bool hasRun;
 
-
+    float camAwayfromPlayer = 14f;
+    float camUp = 6f;
 
     private void Start()
     {
         cam = Camera.main;
 
         //set start camera position
-        cam.transform.position = new Vector3(this.transform.position.x - 12f, this.transform.position.y + 4f, 0f);
+        cam.transform.position = new Vector3(this.transform.position.x - camAwayfromPlayer, this.transform.position.y + camUp, 0f);
 
         isWalking = false;
         facingRight = true;
@@ -75,7 +76,7 @@ public class CharacterMovemnet : MonoBehaviour
         //move camera if player has moved
         //cam.transform.position = new Vector3(cam.transform.position.x, cam.transform.position.y - (oldPos.y - newPos.y), cam.transform.position.z - (oldPos.z - newPos.z));
         //cam.transform.position += cam.transform.position - newPos;
-        cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + 4f, this.transform.position.z);
+        cam.transform.position = new Vector3(cam.transform.position.x, this.transform.position.y + camUp, this.transform.position.z);
 
 
 

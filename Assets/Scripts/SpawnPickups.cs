@@ -22,6 +22,11 @@ public class SpawnPickups : MonoBehaviour
                 {
                     GameObject newObject = Instantiate(allItems[i].prefab, spawnPoint);
                     newObject.transform.position = new Vector3(newObject.transform.position.x, newObject.transform.position.y, newObject.transform.position.z);
+
+                    if (allItems[i].name.Equals("Matches")){
+                        newObject.SetActive(false);
+                        PuzzleManager.instance.matches = newObject;
+                    }
                 }
                 else
                 {

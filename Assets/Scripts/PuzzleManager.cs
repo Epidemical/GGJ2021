@@ -99,7 +99,9 @@ public class PuzzleManager : MonoBehaviour
     [Header("Candle Puzzle Variables")]
     public int correctRune;
     public GameObject runeObj;
-    public GameObject symUnlock;
+    public GameObject matches;
+    public GameObject closedBox;
+    public GameObject openBox;
 
     //played every time a candle is interacted with
     public void CheckSym(int runeIndex)
@@ -108,7 +110,12 @@ public class PuzzleManager : MonoBehaviour
         {
             ChangeSymState(false);
             Debug.Log("win");
-            //win condition
+
+            matches.SetActive(true);
+
+            openBox.SetActive(true);
+            Destroy(closedBox);
+
         }
     }
 
