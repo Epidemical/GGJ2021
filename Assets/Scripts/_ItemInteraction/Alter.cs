@@ -28,6 +28,7 @@ public class Alter : MonoBehaviour, InteractableObject
 
             if (success)
             {
+                //pickup sound
                 item = null;
                 Destroy(itemObject);
             }
@@ -47,7 +48,7 @@ public class Alter : MonoBehaviour, InteractableObject
             itemObject = Instantiate(item.prefab, spawnPoint);
             Destroy(itemObject.GetComponent<PickupObject>());
             itemObject.layer = 0;
-
+            //put down sound
 
             bool test = (item == null);
             Debug.Log("Item null? " + test.ToString());
@@ -63,6 +64,8 @@ public class Alter : MonoBehaviour, InteractableObject
             itemObject = Instantiate(item.prefab, spawnPoint);
             Destroy(itemObject.GetComponent<PickupObject>());
             itemObject.layer = 0;
+            //sound
+
 
             bool test = (item == null);
             Debug.Log("Item null? " + test.ToString());
