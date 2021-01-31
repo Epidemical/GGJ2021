@@ -14,8 +14,11 @@ public class PickupObject : MonoBehaviour, InteractableObject
 
         if (success)
         {
-            //TOM - TODO
             FindObjectOfType<AudioManager>().Play(item.objectSound);
+            if (item.name.Equals("Wand")) //using wand
+            {
+                PuzzleManager.instance.ChangeSymState(true);
+            }
             Destroy(this.gameObject);
             noDice = false;
 

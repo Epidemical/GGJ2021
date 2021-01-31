@@ -25,10 +25,6 @@ public class PuzzleManager : MonoBehaviour
         currentSet = new bool[numCandles];
     }
 
-    private void Start()
-    {
-    }
-
 
     //WIN CONDITION
     [Header("Win Condition Variables")]
@@ -97,5 +93,29 @@ public class PuzzleManager : MonoBehaviour
             Debug.Log("win");
         }
     }
+
+
+    //SYMMETRY PUZZLE
+    [Header("Candle Puzzle Variables")]
+    public int correctRune;
+    public GameObject runeObj;
+    public GameObject symUnlock;
+
+    //played every time a candle is interacted with
+    public void CheckSym(int runeIndex)
+    {
+        if(runeIndex.Equals(correctRune))
+        {
+            ChangeSymState(false);
+            Debug.Log("win");
+            //win condition
+        }
+    }
+
+    public void ChangeSymState(bool state)
+    {
+            runeObj.SetActive(state);
+    }
+
 
 }
