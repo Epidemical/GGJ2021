@@ -53,7 +53,7 @@ public class PuzzleManager : MonoBehaviour
 
         if(successes == 3)
         {
-            //run win sequence
+            GetComponent<WinAnimation>().enabled = true;
         }
         else
         {
