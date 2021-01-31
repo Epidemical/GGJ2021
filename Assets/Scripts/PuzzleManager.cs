@@ -90,6 +90,7 @@ public class PuzzleManager : MonoBehaviour
         {
             //do something cool and win worthy here
             //unlock something
+            candleUnlock.SetActive(true);
             Debug.Log("win");
         }
     }
