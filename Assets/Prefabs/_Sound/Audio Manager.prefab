@@ -126,7 +126,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: b70d7131093b23d41af0a43f01b890c6, type: 3}
     volume: 1
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: World Music
     clip: {fileID: 8300000, guid: 02212035845ac1d4f80f11be74fd1de8, type: 3}
@@ -138,29 +138,29 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d12f98974f0b4ac43a2c83e969008e7a, type: 3}
     volume: 0.7
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: No Dice
     clip: {fileID: 8300000, guid: 993a1a8b807e66a4e86d3bd072cdea6f, type: 3}
     volume: 0.7
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: Portal Fail
     clip: {fileID: 8300000, guid: a917de680853258409b08bad688bb2b5, type: 3}
     volume: 0.7
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: Puzzle Win
     clip: {fileID: 8300000, guid: adf98f0299433d2469ffc83d0ab3fbbb, type: 3}
     volume: 0.7
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}
   - name: Puzzle Fail
     clip: {fileID: 8300000, guid: 4a93dba1301847243ab91ff1d7ac4aa4, type: 3}
     volume: 0.7
     pitch: 1
-    loop: 1
+    loop: 0
     source: {fileID: 0}

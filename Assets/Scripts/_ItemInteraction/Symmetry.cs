@@ -22,8 +22,8 @@ public class Symmetry : MonoBehaviour, InteractableObject
         else
         {
             //bad sound
-            FindObjectOfType<AudioManager>().Play("Puzzle Fail");
-
+            //FindObjectOfType<AudioManager>().Play("Puzzle Fail");
+            Debug.Log("Sound");
         }
     }
 }
