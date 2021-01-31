@@ -8,17 +8,27 @@ public class PickupObject : MonoBehaviour, InteractableObject
 
     public bool noDice;
 
+    public bool yesDice;
+
     public void OnInteract(GameObject player)
     {
         bool success = player.GetComponent<Inventory>().PickUpItem(item);
 
         if (success)
         {
-            FindObjectOfType<AudioManager>().Play(item.objectSound);
+            if (!yesDice)
+            {
+                FindObjectOfType<AudioManager>().Play(item.objectSound);
+                yesDice = true;
+                yesDice = false;
+            }
             if (item.name.Equals("Wand")) //using wand
             {
                 PuzzleManager.instance.ChangeSymState(true);
+
             }
+            //FindObjectOfType<AudioManager>().Stop("Wand");
+
             Destroy(this.gameObject);
             noDice = false;
 
