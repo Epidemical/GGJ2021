@@ -13,7 +13,7 @@ public class PickupObject : MonoBehaviour, InteractableObject
         if (success)
         {
             //TOM - TODO
-            //FindObjectOfType<AudioManager>().Play(item.objectSound);
+            FindObjectOfType<AudioManager>().Play(item.objectSound);
             Destroy(this.gameObject);
 
         }

@@ -554,7 +554,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 2007895885}
-  itemTest: {fileID: 0}
 --- !u!4 &646267990
 Transform:
   m_ObjectHideFlags: 0
@@ -1286,6 +1285,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[15].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 02212035845ac1d4f80f11be74fd1de8, type: 3}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[15].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[15].name
+      value: World Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[15].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4123698256279903142, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
+      propertyPath: sounds.Array.data[15].volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4123698256279903143, guid: 8c5a460574e7a2a449b906314a5c98c6, type: 3}
       propertyPath: m_RootOrder
       value: 11
