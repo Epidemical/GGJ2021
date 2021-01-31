@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Mushroom
   m_EditorClassIdentifier: 
   name: Mushroom
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 6c509b40e6ae3c747afdbcf43035340d, type: 3}
   prefab: {fileID: 2638456474989399355, guid: 40d937a3564f44e419db1bad59919f74, type: 3}
   objectSound: Mushroom

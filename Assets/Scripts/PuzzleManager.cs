@@ -21,8 +21,13 @@ public class PuzzleManager : MonoBehaviour
         else if (instance != this)
             //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
             Destroy(gameObject);
+
+        currentSet = new bool[numCandles];
     }
 
+    private void Start()
+    {
+    }
 
 
     //WIN CONDITION
@@ -59,4 +64,38 @@ public class PuzzleManager : MonoBehaviour
             //run loss sequence
         }
     }
+
+
+    //CANDLE PUZZLE
+    [Header("Candle Puzzle Variables")]
+    public int numCandles;
+    private bool[] currentSet; //holds which candles are and are not lit currently
+    public bool[] pattern; //indicates the desired pattern
+    public GameObject candleUnlock;
+
+    //played every time a candle is interacted with
+    public void CheckCandles(int candleIndex, bool state)
+    {
+        //update set
+        currentSet[candleIndex] = state;
+
+        bool win = true;
+        //check for win condition
+        for(int i = 0; i<numCandles; i++)
+        {
+            if (currentSet[i] != pattern[i])
+            {
+                win = false;
+                break;
+            }
+        }
+
+        if (win)
+        {
+            //do something cool and win worthy here
+            //unlock something
+            Debug.Log("win");
+        }
+    }
+
 }

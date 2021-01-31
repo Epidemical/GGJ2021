@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: D20
   m_EditorClassIdentifier: 
   name: D20
-  sprite: {fileID: 21300000, guid: a0c4c0ff9a730774ebd30059d2e45c28, type: 3}
+  sprite: {fileID: 21300000, guid: ae1a76110c2fc474c92a505601fc3487, type: 3}
   prefab: {fileID: 3740918607211520549, guid: 81407cc540ca0c246892c5cf74d19a59, type: 3}
   objectSound: Dice

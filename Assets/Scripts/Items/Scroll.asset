@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Scroll
   m_EditorClassIdentifier: 
   name: Scroll
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 6b7bcc332d822594d84fc86d71899394, type: 3}
   prefab: {fileID: 5300092899709269359, guid: e1d3c1a442399a24096a19c0ad0ad55a, type: 3}
   objectSound: Paper scroll or book

@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: RunedCandle
   m_EditorClassIdentifier: 
   name: Runed Candle
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: b9546d1b7d98d8f429d262ec98110793, type: 3}
   prefab: {fileID: 7194481172513960937, guid: 737b5bb21b5ab4c43934d753816efeb9, type: 3}
   objectSound: Fire whoosh

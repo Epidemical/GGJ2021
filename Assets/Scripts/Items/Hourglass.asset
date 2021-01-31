@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Hourglass
   m_EditorClassIdentifier: 
   name: Hourglass
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 1b6103ae7d5a75f4e8e16bb7336e16c0, type: 3}
   prefab: {fileID: 5650570609964580383, guid: d63e5194a8b3f6d448900235f6c80a47, type: 3}
   objectSound: Orb 2

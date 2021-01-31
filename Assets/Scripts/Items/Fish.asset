@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Fish
   m_EditorClassIdentifier: 
   name: Herring
-  sprite: {fileID: 0}
+  sprite: {fileID: 21300000, guid: 1143d4c4dd810174fa48e5aa2eaf9cff, type: 3}
   prefab: {fileID: 2217658417304945648, guid: e08023f232d41524185761045f7478b1, type: 3}
   objectSound: Fish
