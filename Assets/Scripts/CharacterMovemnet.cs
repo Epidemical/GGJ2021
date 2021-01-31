@@ -94,13 +94,18 @@ public class CharacterMovemnet : MonoBehaviour
             {
                 facingRight = false;
                 anim.SetBool("facingRight", false);
+                anim.gameObject.transform.rotation = new Quaternion(0f, -.7f, 0f, .7f);
             }
             else if(direction.z < 0)
             {
                 facingRight = true;
                 anim.SetBool("facingRight", true);
+                anim.gameObject.transform.rotation = new Quaternion(0f, .7f, 0f, .7f);
+
             }
         }
+
+        //Debug.Log(anim.gameObject.transform.rotation);
     
         /*if (!isWalking && !hasRun)
         {
