@@ -128,6 +128,18 @@ MonoBehaviour:
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - name: World Music
+    clip: {fileID: 8300000, guid: 02212035845ac1d4f80f11be74fd1de8, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: No Dice
+    clip: {fileID: 8300000, guid: 993a1a8b807e66a4e86d3bd072cdea6f, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - name: Wand
     clip: {fileID: 8300000, guid: d12f98974f0b4ac43a2c83e969008e7a, type: 3}
     volume: 1
