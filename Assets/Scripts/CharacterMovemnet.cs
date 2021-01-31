@@ -25,6 +25,8 @@ public class CharacterMovemnet : MonoBehaviour
 
     bool facingRight;
     bool isWalking;
+    public float standingTimer = 3f;
+    public float standingCount;
 
     bool hasRun;
 
@@ -85,12 +87,20 @@ public class CharacterMovemnet : MonoBehaviour
         {
             isWalking = false;
             anim.SetBool("isWalking", false);
+            standingCount += Time.deltaTime;
+            if (standingCount >= standingTimer)
+            {
+                anim.SetBool("isSit", true);
+            }
+
         }
         else
         {
+            anim.SetBool("isSit", false);
+
             isWalking = true;
             anim.SetBool("isWalking", true);
-
+            standingCount = 0f;
             if(direction.z > 0)
             {
                 facingRight = false;
