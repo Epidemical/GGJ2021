@@ -17,15 +17,22 @@ public class Candle : MonoBehaviour, InteractableObject
 
     public void OnInteract(GameObject player)
     {
-        state = !state;
-        updateLook();
-
-        PuzzleManager.instance.CheckCandles(candleIndex, state);
+       //bad sound
     }
 
     public void OnInteract(GameObject player, Item item)
     {
-        OnInteract(player);
+        if (item.name.Equals("Matches")) //using matches
+        {
+            state = !state;
+            updateLook();
+
+            PuzzleManager.instance.CheckCandles(candleIndex, state);
+        }
+        else
+        {
+            //bad sound
+        }
     }
 
     private void updateLook()
